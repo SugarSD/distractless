@@ -12,7 +12,7 @@ I have a public site hosting it [here](https://distractless.netlify.app) if your
 ### Install
 
 You can install all the files you'll need by downloading the zip from this repository and unzipping the files to wherever
-you'd like
+you'd like.
 
 *or*
 
@@ -54,4 +54,4 @@ If all goes well the site should be up and running within a minute or so!
 on your own via apache for example***
 
 # Recent Changes
-*. Fixed "npm run build" not working on netlify
+*. Fixed "npm run build" not working on netlify.
