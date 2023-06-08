@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# About
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is pretty much just a web app that allows you to use a less distracting version of youtube by minimizing the features
+and design choices youtube uses to pull you in.
 
-## Available Scripts
+# How to setup
 
-In the project directory, you can run:
+I have a public site hosting it [here](https://distractless.netlify.app) if your just looking to try it out.
 
-### `npm start`
+**Otherwise if you're looking to edit/use the code for yourself follow the instructions below:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can install all the files you'll need by downloading the zip from this repository and unzipping the files to wherever
+you'd like
 
-### `npm test`
+*or*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can copy the files to your own repository by using this repository as a "template".
 
-### `npm run build`
+### Start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To start the site there's two options:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Local Only
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open a terminal and navigate to the app's main folder (if not changed manually it should be "distractless").
 
-### `npm run eject`
+Inside of the terminal run:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> ``npm start``
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If done correctly it should show a message in the terminal with the ip to access the site on your current network.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Public Access
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For the sake of simplicity im going to suggest you use [netlify](https://app.netlify.com) for this option.
 
-## Learn More
+**(Assuming you have the files inside your own github repository)**
+On the netlify homepage select "Import project from git..."
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you haven't connected your github yet it will request you to do so, once your github is connected select the repository
+you placed the site files into.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+It should automatically fill in the deploy options to:
 
-### Code Splitting
+>Build Command: npm run build
+>Publish Directory: build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If all goes well the site should be up and running within a minute or so!
 
-### Analyzing the Bundle Size
+*Side note: **If you choose to host the site publicly on your own server/computer i assume you know how to serve files 
+on your own via apache for example***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Recent Changes
+*. Fixed "npm run build" not working on netlify
