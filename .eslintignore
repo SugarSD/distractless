@@ -1,0 +1,4 @@
+# God forgive me for this shitty fix, you need this to deploy on netlify
+# If you have a better idea please make a merge request T^T
+build/*
+src/*

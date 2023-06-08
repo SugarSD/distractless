@@ -4,6 +4,7 @@ import "./Home.css";
 
 function Home() {
 	const [input, setInput] = useState("");
+	// eslint-disable-next-line
 	const [buttonActive, setButtonActive] = useState(false);
 
 	let navigate = useNavigate();

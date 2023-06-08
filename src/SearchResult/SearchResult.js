@@ -41,6 +41,7 @@ function SearchResult() {
 		} else {
 			navigate("/");
 		}
+		
 	}, [query]);
 
 	return (
