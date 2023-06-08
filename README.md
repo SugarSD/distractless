@@ -45,6 +45,7 @@ you placed the site files into.
 It should automatically fill in the deploy options to:
 
 >Build Command: npm run build
+
 >Publish Directory: build
 
 If all goes well the site should be up and running within a minute or so!
