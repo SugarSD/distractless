@@ -22,7 +22,7 @@ You can copy the files to your own repository by using this repository as a "tem
 
 To start the site there's two options:
 
-#### Local Only
+#### *Local Only*
 
 Open a terminal and navigate to the app's main folder (if not changed manually it should be "distractless").
 
@@ -32,7 +32,7 @@ Inside of the terminal run:
 
 If done correctly it should show a message in the terminal with the ip to access the site on your current network.
 
-#### Public Access
+#### *Public Access*
 
 For the sake of simplicity im going to suggest you use [netlify](https://app.netlify.com) for this option.
 
