@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 9vh;
+    background-color: #161616;
+    border-bottom: .75px solid #acacac68;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    height: 100%;
+}
+
+#home {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
