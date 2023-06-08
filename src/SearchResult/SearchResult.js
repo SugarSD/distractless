@@ -16,7 +16,7 @@ function SearchResult() {
 		for (let each in arr) {
 			let videoTitle = "";
 			videoTitle = arr[each].snippet.title;
-			videoTitle = videoTitle.replace("&#39;", "'");
+			videoTitle = videoTitle.replaceAll("&#39;", "'");
 			videoList.push(
 				<div className="video-container">
 				<div className="video" onClick={() => {navigate(`/watch/?v=${arr[each].id.videoId}`)}}>
