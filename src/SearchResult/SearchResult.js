@@ -14,12 +14,15 @@ function SearchResult() {
 	function listVideos(arr) {
 		let videoList = [];
 		for (let each in arr) {
+			let videoTitle = "";
+			videoTitle = arr[each].snippet.title;
+			videoTitle = videoTitle.replace("&#39;", "'");
 			videoList.push(
 				<div className="video-container">
 				<div className="video" onClick={() => {navigate(`/watch/?v=${arr[each].id.videoId}`)}}>
-					<img src={arr[each].snippet.thumbnails.medium.url} alt={arr[each].snippet.title} />
+					<img src={arr[each].snippet.thumbnails.medium.url} alt={videoTitle} />
 					<div className="videoInfo">
-						<h3>{arr[each].snippet.title}</h3>
+						<h3>{videoTitle}</h3>
 						<p>{arr[each].snippet.channelTitle}</p>
 					</div>
 				</div>
